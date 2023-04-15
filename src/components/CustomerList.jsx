@@ -1,9 +1,18 @@
-import React from 'react'
+import "./CustomerList.css"
+import CustomerItem from './CustomerItem';
 
-const CustomerList = () => {
+
+const CustomerList = ({customers}) => {
+
+
   return (
-    <div>CustomerList</div>
-  )
+    <ul className='customer-list'>
+        {customers.map((customer)=>(
+            <CustomerItem customer={customer} key={customer.id}/>
+        ))}
+       
+    </ul>
+  );
 }
 
 export default CustomerList;
