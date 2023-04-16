@@ -13,8 +13,8 @@ body {
   background: linear-gradient(
     90deg,
     rgba(58, 60, 180, 1) 0%,
-    rgba(29, 253, 247, 1) 64%,
-    rgba(69, 252, 72, 1) 100%
+    rgb(253, 29, 234) 64%,
+    rgb(240, 43, 9) 100%
   );
   display: flex;
   align-items: center;
