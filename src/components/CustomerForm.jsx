@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./CustomerForm.css"
 
 const CustomerForm = ({addNewCustomer}) => {
+  
 const [customerName,setCustomerName]=useState("");
 
 const handleSubmit=(event)=>{
