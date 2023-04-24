@@ -1,4 +1,4 @@
-import "./CustomerList.css";
+import "./CustomerItem.module.css";
 import CustomerItem from "./CustomerItem";
 
 const CustomerList = ({ customers, setCustomers }) => {
